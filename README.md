@@ -22,20 +22,7 @@ This is a simple e-commerce backend API built using **Spring Boot**. It provides
 - **Maven** for dependency management
 
 ## 📁 Project Structure
-src/
-└── main/
-├── java/
-│ └── com.springboot.ecommerce_backend/
-| ├── config/
-│ ├── controllers/
-| ├── dto/
-│ ├── models/
-│ ├── repositories/
-| ├── security/
-│ ├── service/
-│ └── EcommerceBackendApplication.java
-└── resources/
-├── application.properties
+![image](https://github.com/user-attachments/assets/dfe8759b-af8e-4e13-8e9a-9a08c0df3daf)
 
 ## 🚀 Getting Started
 
@@ -53,15 +40,15 @@ src/
    cd FirstSpringBootProject_EcommerceBackend-main
 
 2. Configure DB in application.properties
+   ```bash
    spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
    spring.datasource.username=your_user
    spring.datasource.password=your_password
 
-3. Run the project
+4. Run the project
 
-4. The app should be running at:
-   http://localhost:8080
+5. The app should be running at: http://localhost:8080
 
 ### Example Endpoints
-- GET /products – List all products
-- POST /auth/registerCustomer – Register new user
+- 🟢 **GET** /products – List all products
+- 🟡 **POST** /auth/registerCustomer – Register new user
