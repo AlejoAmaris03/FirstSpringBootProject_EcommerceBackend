@@ -37,7 +37,6 @@ src/
 └── resources/
 ├── application.properties
 
-
 ## 🚀 Getting Started
 
 ### Prerequisites
