@@ -42,26 +42,19 @@ This is a simple e-commerce backend API built using **Spring Boot**. It provides
    cd FirstSpringBootProject_EcommerceBackend-main
 
 2. **Configure DB in application.properties**
-# Database configuration
-  - spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
-  - spring.datasource.username=your_user
-  - spring.datasource.password=your_password
+   ```bash
+    spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
+    spring.datasource.username=your_user
+    spring.datasource.password=your_password
+    spring.jpa.hibernate.ddl-auto=update
+    spring.jpa.hibernate.ddl-auto=update
+    jwt.key=your_generated_key
 
-# JPA settings
- - spring.jpa.hibernate.ddl-auto=update
-
-# JPA settings
-spring.jpa.hibernate.ddl-auto=update
-
-# JWT secret key
-jwt.key=your_generated_key
-
-To generate a secure JWT key, open a terminal (CMD o PowerShell) and run:
-```bash
-  openssl rand -base64 32
-```
-
-Copy the generated key and replace your_generated_key with it.
+  To generate a secure JWT key, open a terminal (CMD o PowerShell) and run:
+  ```bash
+    openssl rand -base64 32
+  ```
+  Copy the generated key and replace your_generated_key with it.
 
 4. Run the project
 
