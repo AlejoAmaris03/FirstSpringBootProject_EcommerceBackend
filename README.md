@@ -1,5 +1,3 @@
-# First SpringBoot Project - Ecommerce (Backend)
-
 # 🛒 E-Commerce Backend API (Spring Boot)
 
 This is a simple e-commerce backend API built using **Spring Boot**. It provides endpoints for managing products, users and orders. This project serves as an introductory backend for an online store, and it's my first full project using the Spring framework.
