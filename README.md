@@ -77,7 +77,7 @@ This is a simple e-commerce backend API built using **Spring Boot**. It provides
 
 - 🔸 **Option 2: Using Postman**
   - Method: POST
-  - URL: http://localhost:8080/api/auth/register
+  - URL: http://localhost:8080/auth/registerCustomer
   - Body (raw JSON):
     ```json
     {
