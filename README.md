@@ -39,7 +39,7 @@ This is a simple e-commerce backend API built using **Spring Boot**. It provides
    git clone https://github.com/AlejoAmaris03/FirstSpringBootProject_EcommerceBackend.git
    cd FirstSpringBootProject_EcommerceBackend-main
 
-2. Configure DB in application.properties
+2. **Configure DB in application.properties**
    ```bash
    spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
    spring.datasource.username=your_user
