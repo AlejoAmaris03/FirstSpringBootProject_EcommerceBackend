@@ -47,9 +47,7 @@ This is a simple e-commerce backend API built using **Spring Boot**. It provides
     spring.datasource.username=your_user
     spring.datasource.password=your_password
     spring.jpa.hibernate.ddl-auto=update
-    spring.jpa.hibernate.ddl-auto=update
     jwt.key=your_generated_key
-
   To generate a secure JWT key, open a terminal (CMD o PowerShell) and run:
   ```bash
     openssl rand -base64 32
