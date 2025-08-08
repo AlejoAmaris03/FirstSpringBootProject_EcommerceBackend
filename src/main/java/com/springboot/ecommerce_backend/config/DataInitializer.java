@@ -40,6 +40,9 @@ public class DataInitializer {
 
             if(categoryRepo.findByName("Sportswear") == null)
                 categoryRepo.save(new Category(0, "Sportswear"));
+            
+            if(categoryRepo.findByName("Other") == null)
+                categoryRepo.save(new Category(0, "Other"));
         };
     }
 
