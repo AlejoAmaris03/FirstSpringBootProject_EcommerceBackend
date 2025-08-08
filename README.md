@@ -62,28 +62,10 @@ This is a simple e-commerce backend API built using **Spring Boot**. It provides
 - 🟢 **GET** /categories – List all categories
 - 🟡 **POST** /auth/registerCustomer – Register new user
 
-### Create an Admin Account
-> 📝 Note: To access administrative features, you need to create a user with admin privileges. You can do this directly in the database or via the API (e.g., using Postman).
+### Access with Default Admin Credentials
+  > 📝 You can log in with the following default administrator account, which is automatically created when the application starts.
 
-- 🔸 **Option 1: Using SQL (Manual Insert in PostgreSQL)**
-    ```sql
-      INSERT INTO users (name, surname, username, email, password, role_id)
-      VALUES ('admin', 'admin surname', 'admin', 'admin@example.com', 'hashed_password_here', 1);
-    ```
-  
-   - Replace hashed_password_here with a password encrypted using BCrypt 12.
-   - If you're unsure how to generate a BCrypt password, you can use an online tool like [bcrypt-generator.com](https://www.browserling.com/tools/bcrypt).
-
-- 🔸 **Option 2: Using Postman**
-  - Method: POST
-  - URL: http://localhost:8080/auth/registerCustomer
-  - Body (raw JSON):
-    ```json
-    {
-      "name": "admin",
-      "surname": "admin surname",
-      "username": "admin"
-      "email": "admin@example.com",
-      "password": "123",
-      "role": { "id": 1 }
-    }
+👤 Username: admin  
+🔑 Password: 123
+ 
+- This account has full access to manage users, products and sales.
